@@ -6,6 +6,7 @@ dependencies:
     - field.field.node.test.body
     - field.field.node.test.field_test_image
     - field.field.node.test.field_test_number
+    - field.field.node.test.field_test_text
     - image.style.thumbnail
     - node.type.test
   module:
@@ -46,6 +47,14 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: number
+    region: content
+  field_test_text:
+    weight: 124
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
     region: content
   path:
     type: path
