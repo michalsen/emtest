@@ -1,4 +1,4 @@
-uuid: 3f11aa54-3eb3-4ebd-ae99-ebaa84f7eb0c
+uuid: 61e13b57-e94b-4e4f-824e-f8865d0abfc9
 langcode: en
 status: true
 dependencies: {  }
@@ -7,7 +7,7 @@ _core:
 id: feedback
 label: 'Website feedback'
 recipients:
-  - eric.michalsen@gmail.com
+  - emichalsen@straightnorth.com
 reply: ''
 weight: 0
 message: 'Your message has been sent.'
