@@ -1,0 +1,37 @@
+uuid: cdc07f97-f418-4648-a6a5-b562e2cabdfa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.another_test.body
+    - field.field.node.another_test.field_test
+    - node.type.another_test
+  module:
+    - options
+    - text
+    - user
+id: node.another_test.default
+targetEntityType: node
+bundle: another_test
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_test:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

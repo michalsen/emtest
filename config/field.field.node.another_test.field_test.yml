@@ -1,0 +1,21 @@
+uuid: 3f436617-fb84-443e-be7f-4533e391e1d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_test
+    - node.type.another_test
+  module:
+    - options
+id: node.another_test.field_test
+field_name: field_test
+entity_type: node
+bundle: another_test
+label: test
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string
