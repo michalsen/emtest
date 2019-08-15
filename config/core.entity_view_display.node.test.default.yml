@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.test.body
+    - field.field.node.test.field_test_
     - field.field.node.test.field_test_image
     - field.field.node.test.field_test_number
     - field.field.node.test.field_test_text
@@ -23,6 +24,13 @@ content:
     weight: 101
     settings: {  }
     third_party_settings: {  }
+    region: content
+  field_test_:
+    weight: 105
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
     region: content
   field_test_image:
     weight: 102

@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.test.body
+    - field.field.node.test.field_test_
     - field.field.node.test.field_test_image
     - field.field.node.test.field_test_number
     - field.field.node.test.field_test_text
@@ -33,6 +34,14 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_test_:
+    weight: 125
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
   field_test_image:
     weight: 122
     settings:
