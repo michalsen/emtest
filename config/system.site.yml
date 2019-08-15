@@ -1,0 +1,14 @@
+uuid: 3fbd1ecc-876c-4ba5-9215-e4e4e265d2ba
+name: emtest
+mail: eric.michalsen@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
