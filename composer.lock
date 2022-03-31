@@ -6225,16 +6225,16 @@
         },
         {
             "name": "behat/transliterator",
-            "version": "v1.3.0",
+            "version": "v1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Behat/Transliterator.git",
-                "reference": "3c4ec1d77c3d05caa1f0bf8fb3aae4845005c7fc"
+                "reference": "34490b42c5225687d9449e6476e66a03c62c43ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Behat/Transliterator/zipball/3c4ec1d77c3d05caa1f0bf8fb3aae4845005c7fc",
-                "reference": "3c4ec1d77c3d05caa1f0bf8fb3aae4845005c7fc",
+                "url": "https://api.github.com/repos/Behat/Transliterator/zipball/34490b42c5225687d9449e6476e66a03c62c43ff",
+                "reference": "34490b42c5225687d9449e6476e66a03c62c43ff",
                 "shasum": ""
             },
             "require": {
@@ -6243,12 +6243,12 @@
             "require-dev": {
                 "chuyskywalker/rolling-curl": "^3.1",
                 "php-yaoi/php-yaoi": "^1.0",
-                "phpunit/phpunit": "^4.8.36|^6.3"
+                "phpunit/phpunit": "^4.8.36 || ^6.5.14 || ^8.5.25"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.2-dev"
+                    "dev-master": "1.x-dev"
                 }
             },
             "autoload": {
@@ -6266,7 +6266,7 @@
                 "slug",
                 "transliterator"
             ],
-            "time": "2020-01-14T16:39:13+00:00"
+            "time": "2022-03-30T09:16:18+00:00"
         },
         {
             "name": "dealerdirect/phpcodesniffer-composer-installer",
@@ -6554,16 +6554,16 @@
         },
         {
             "name": "instaclick/php-webdriver",
-            "version": "1.4.10",
+            "version": "1.4.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/instaclick/php-webdriver.git",
-                "reference": "6bc1f44cf23031e68c326cd61e14ec32486f241b"
+                "reference": "608e8b20a9072f84cac4f2fddb4420893d69eb83"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/instaclick/php-webdriver/zipball/6bc1f44cf23031e68c326cd61e14ec32486f241b",
-                "reference": "6bc1f44cf23031e68c326cd61e14ec32486f241b",
+                "url": "https://api.github.com/repos/instaclick/php-webdriver/zipball/608e8b20a9072f84cac4f2fddb4420893d69eb83",
+                "reference": "608e8b20a9072f84cac4f2fddb4420893d69eb83",
                 "shasum": ""
             },
             "require": {
@@ -6609,7 +6609,7 @@
                 "webdriver",
                 "webtest"
             ],
-            "time": "2021-10-14T03:25:34+00:00"
+            "time": "2022-03-30T01:28:33+00:00"
         },
         {
             "name": "jcalderonzumba/gastonjs",
