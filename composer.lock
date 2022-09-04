@@ -2796,16 +2796,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v4.14.0",
+            "version": "v4.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "34bea19b6e03d8153165d8f30bba4c3be86184c1"
+                "reference": "617d0220b903895537b25791f52af4698dd19339"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/34bea19b6e03d8153165d8f30bba4c3be86184c1",
-                "reference": "34bea19b6e03d8153165d8f30bba4c3be86184c1",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/617d0220b903895537b25791f52af4698dd19339",
+                "reference": "617d0220b903895537b25791f52af4698dd19339",
                 "shasum": ""
             },
             "require": {
@@ -2844,7 +2844,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2022-05-31T20:59:12+00:00"
+            "time": "2022-09-03T19:54:32+00:00"
         },
         {
             "name": "pantheon-systems/quicksilver-pushback",
